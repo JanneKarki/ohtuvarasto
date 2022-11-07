@@ -68,7 +68,7 @@ class TestVarasto(unittest.TestCase):
     def test_ota_varastosta_alle_nolla(self):
         self.varasto.lisaa_varastoon(10)
         self.varasto.ota_varastosta(-10)
-        self.assertEqual(self.varasto.saldo, 1)
+        self.assertEqual(self.varasto.saldo, 10)
 
     def test_str_method(self):
         tuloste = self.varasto.__str__()
