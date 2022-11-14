@@ -9,7 +9,7 @@ class Varasto:
             # mahtuu
             self.saldo = alku_saldo
         else:
-            # täyteen ja ylimäärä hukkaan!
+            # täyteen ja ylimäärä hukkaan!   
             self.saldo = tilavuus
     #muutos
     # huom: ominaisuus voidaan myös laskea.
